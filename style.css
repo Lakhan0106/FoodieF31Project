@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    font-family: calibari;
+    margin: 0;
+    /* position: fixed;
+    top:10px; */
+}
+.navdiv{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed;
+    top:10px; */
+}
+.logo a{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+body{
+    height: 100;
+    width: 100;
+    background-color: black;
+    background-image: url('images/bg2.jpg');
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+/* HOME PAGE */
+div{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.h{
+    text-align: left;
+    display: inline-block;
+} 
+a{
+    color: white!important;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size:20px;
+}
+a:hover{
+    text-decoration: none!important;
+    /* background-color: rgb(50, 47, 47); */
+    font-weight:800;
+}
+.thought{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    height:550px;
+    width: 100;
+}
+.d1{
+   display: inline-block;
+   width: 450px;
+   background-color:  rgb(40, 35, 30);
+   margin: 20px;
+   padding: 10px;
+   overflow: hidden;
+   position: relative;
+   cursor: pointer;
+   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
+   border-radius: 20px;
+}
+.IM{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    background-size: cover;
+    transition: all 1.1s;
+}
+.last-cont{
+    text-align: center;
+    /* margin: 10px; */
+    background-color: black;
+}
+h4{
+    color:white;
+    padding: 10px;
+}
+h4:hover{
+    font-weight: 1000px!important;
+    color:burlywood;
+}
+.h{
+    padding: 10px;
+    display: inline-block;
+}
+.IM:hover{
+    transform: scale(1.2);
+}
+.I{
+    border-radius: 20px;
+}
+
